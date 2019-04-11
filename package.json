@@ -1,0 +1,24 @@
+{
+  "name": "validate-self",
+  "version": "1.0.2",
+  "description": "this is a test version101",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "keywords": [
+    "valid"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "async-validator": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
